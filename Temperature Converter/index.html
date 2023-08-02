@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lugrasimo&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="name"><h1><b><i>TEMPERATURE  CONVERTER</i> </b></h1></div>
+    <form name="converter" class="form">
+        Celsius: <input type="text" name="celsius" onChange="CelsiusConverter()" class="items" id="cel"><br />
+        Fahrenheit: <input type="text" name="fahrenheit" onChange="FahrenheitConverter() "class="items" id="far"><br />
+        Kelvin: <input type="text" name="kelvin" onChange="KelvinConverter()" class="items" id="kel"><br />
+        <input type="button" value="Convert!" class="convert" id="but"/>
+    </form>
+    
+    <script src="converter.js"></script>
+</body>
+</html>

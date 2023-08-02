@@ -1,0 +1,45 @@
+body{
+    background-color: #FAF3F0;
+}
+.name{
+    text-align: center;
+    font-family: 'Lugrasimo', cursive;
+    height: 5rem;
+
+}
+.form{
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    background-color: #D4E2D4;
+    margin: auto;
+    padding:  auto;
+    margin-top: 10%;
+    padding: 10% 1%;
+}
+.items{
+    margin: 10px 57px 10px 5px;
+    height: 1.5rem;
+    width: 15rem;
+
+}
+
+/* #cel{
+
+} */
+
+#far{
+    margin-right: 5rem;
+}
+
+/* #kel{
+
+} */
+
+.convert{
+    margin-top: 1.5rem;
+    padding: 5px 20px;
+}
+#but:hover{
+    background-color: #DBC4F0;
+}
